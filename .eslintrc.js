@@ -6,7 +6,8 @@ module.exports = {
     },
     extends: [
       'plugin:@typescript-eslint/recommended',
-      'plugin:vue/vue3-recommended',
+      'plugin:vue/vue3-essential',
+      'plugin:vue/vue3-strongly-recommended',
       'prettier',
     ],
     parser: 'vue-eslint-parser',
@@ -17,5 +18,6 @@ module.exports = {
     plugins: ['@typescript-eslint'],
     rules: {
       'vue/multi-word-component-names': 'off',
+      'vue/no-reserved-component-names': 'off',
     },
   };
