@@ -1278,15 +1278,15 @@ prettier@^2.8.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
   integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
-primeflex@^2:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-2.0.0.tgz#b4152a97a455bbfad33503b6e10fe73d1f9e2228"
-  integrity sha512-t6AG3iRI1rh04uI+9nC4JSlbKfA8PnpRDFtjyqi3rDSLRgdfOuhIiunJbjVQ4alnnCfuQAAbVyde1AKN9QxT/w==
+primeflex@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-3.3.0.tgz#6c755230ddf30c8fffed9f817efed28d5fe2bdff"
+  integrity sha512-4hvyIO7lERN5bnyURn67Qpozghins8Jq/GSXO6tymc3oa2ADHWuiYBti8ZptPwHu+uD/HTEisS26NEmeIGfPZQ==
 
-primeicons@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-5.0.0.tgz#73a0b6028a77c58a9eeb331ad13aaf085e8451ee"
-  integrity sha512-heygWF0X5HFI1otlZE62pp6ye7sZ8om78J9au2BRkg8O7Y8AHTZ9qKMRzchZUHLe8zUAvdi6hZzzm9XxgwIExw==
+primeicons@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-6.0.1.tgz#431fa7c79825934eefd62087d8e1faa6a9e376ad"
+  integrity sha512-KDeO94CbWI4pKsPnYpA1FPjo79EsY9I+M8ywoPBSf9XMXoe/0crjbUK7jcQEDHuc0ZMRIZsxH3TYLv4TUtHmAA==
 
 primevue@^3.25.0:
   version "3.25.0"
