@@ -1,10 +1,8 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import 'primevue/resources/themes/saga-blue/theme.css'       //theme
-import 'primevue/resources/primevue.min.css'                 //core css
-import 'primeicons/primeicons.css'                           //icons
 import 'primeflex/primeflex.css';
+import 'primeicons/primeicons.css'; //icons
 </script>
 
 <template>
