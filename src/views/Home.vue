@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+const doubleCount = computed(() => count.value * 2)
 </script>
 
 <template>
@@ -27,6 +28,7 @@ const count = ref(0)
   </p>
 
   <Button type="button" @click="count++">count is: {{ count }}</Button>
+  <div>doubleCount is: {{ doubleCount }}</div>
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement!
