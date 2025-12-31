@@ -12,37 +12,40 @@
   "dependencies": {
     "@formvuelate/plugin-lookup": "^3.9.1",
     "@formvuelate/plugin-vee-validate": "^3.9.1",
-    "@primevue/themes": "^4.4.1",
+    "@primeuix/themes": "^2.0.2",
+    "@primeuix/utils": "^0.6.3",
     "formvuelate": "^3.9.1",
     "primeflex": "^4.0.0",
     "primeicons": "^7.0.0",
-    "primevue": "^4.4.1",
+    "primevue": "^4.5.4",
     "vee-validate": "^4.15.1",
     "vite-vue3-typescript": "file:",
-    "vue": "^3.5.22",
+    "vue": "^3.5.26",
     "vue-eslint-parser": "^10.2.0",
-    "vue-router": "4.6.3"
+    "vue-router": "4.6.4"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.37.0",
-    "@typescript-eslint/eslint-plugin": "^8.46.1",
-    "@typescript-eslint/parser": "^8.46.1",
-    "@vitejs/plugin-vue": "^6.0.1",
-    "eslint": "^9.37.0",
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "@nabla/vite-plugin-eslint": "^2.0.6",
+    "@primevue/auto-import-resolver": "^4.5.4",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "@typescript-eslint/parser": "^8.51.0",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-vue": "^10.5.1",
-    "globals": "^16.4.0",
-    "prettier": "^3.6.2",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.1",
+    "typescript-eslint": "^8.51.0",
+    "unplugin-vue-components": "^30.0.0",
     "vite": "npm:rolldown-vite@latest",
     "vite-plugin-eslint": "^1.8.1",
-    "vue-tsc": "^3.1.1"
+    "vue-tsc": "^3.2.1"
   },
   "volta": {
-    "node": "22.20.0",
-    "pnpm": "10.18.3"
+    "node": "22.21.1",
+    "pnpm": "10.27.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
