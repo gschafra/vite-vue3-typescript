@@ -1,18 +1,27 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import 'primeflex/primeflex.css';
-import 'primeicons/primeicons.css'; //icons
+import 'primeicons/primeicons.css';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <nav>
-    <router-link to="/">Home</router-link>
-    |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view></router-view>
+  <!-- Full-screen routes (e.g. Dashboard) render without the default shell -->
+  <router-view v-if="route.meta.fullscreen" />
+
+  <!-- Standard pages -->
+  <template v-else>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <nav>
+      <router-link to="/">Home</router-link>
+      |
+      <router-link to="/about">About</router-link>
+      |
+      <router-link to="/dashboard">Dashboard</router-link>
+    </nav>
+    <router-view />
+  </template>
 </template>
 
 <style>
