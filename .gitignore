@@ -7,3 +7,4 @@ dist-ssr
 /.dccache
 /.vscode
 components.d.ts
+.eslintcache
