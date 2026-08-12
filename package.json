@@ -12,12 +12,12 @@
   "dependencies": {
     "@formvuelate/plugin-lookup": "^4.3.0",
     "@formvuelate/plugin-vee-validate": "^4.3.0",
-    "@primeuix/themes": "^3.0.0",
-    "@primeuix/utils": "^0.8.1",
+    "@openvue/themes": "0.7.0-beta.0",
+    "@openuxkit/utils": "^0.0.1-alpha.1",
     "formvuelate": "^4.3.0",
     "primeflex": "^4.0.0",
     "primeicons": "^8.0.0",
-    "primevue": "^5.0.0",
+    "openvue": "0.7.0-beta.0",
     "vee-validate": "^4.15.1",
     "vite-vue3-typescript": "file:",
     "vue": "^3.5.41",
@@ -28,7 +28,7 @@
     "@eslint/eslintrc": "^3.3.6",
     "@eslint/js": "^10.0.1",
     "@nabla/vite-plugin-eslint": "^3.0.1",
-    "@primevue/auto-import-resolver": "^5.0.0",
+    "@openvue/auto-import-resolver": "0.7.0-beta.0",
     "@typescript-eslint/eslint-plugin": "^8.67.0",
     "@typescript-eslint/parser": "^8.67.0",
     "@vitejs/plugin-vue": "^6.0.8",
@@ -50,7 +50,8 @@
   },
   "pnpm": {
     "overrides": {
-      "confbox": "0.1.8"
+      "confbox": "0.1.8",
+      "primevue": "npm:openvue@0.7.0-beta.0"
     },
     "onlyBuiltDependencies": [
       "esbuild",

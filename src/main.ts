@@ -1,5 +1,5 @@
-import Lara from '@primeuix/themes/lara'
-import PrimeVue from 'primevue/config'
+import Lara from '@openvue/themes/lara'
+import PrimeVue from 'openvue/config'
 import { createApp } from 'vue'
 import App from './App.vue'
 import { router } from './router'
